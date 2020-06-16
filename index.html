@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>kingdom of hef fan</title>
+		<script src="script.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="style.css" id="css">
+		<meta charset="UTF-8">
+		<meta name="description" content="KHF Home">
+		<meta name="keywords" content="KHF, Hef fan, kingdom of hef fan">
+		<meta name="author" content="John Cendol">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+	</head>
+	<body>
+		<div class="navbar">
+			<div><input type="image" src="images/icon/Manage.png" id="_menu" onclick="menu()">
+				<input type="image" src="images/icon/Manage.png" id="_unmenu" onclick="unmenu()"> 
+				<h3>Kingdom of Hef Fan</h3></div>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About</a></li>
+				<li><a href="content.html">Content</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</div>
+		<div id="menu" onmouseout="out()" onmouseover="over()">
+			<h6> Structural Organization</h6>
+			<h6> Membership </h6>
+			<h6> From KHF </h6>
+			<h6> Public Chat box </h6>
+			<h6> Private Chat </h6>
+			<h6> Leave a Comment </h6>
+			<h6 id="chngview" onclick="mob()"> Change view to mobile </h6>
+			<h6 id="chngview2" onclick="deks()"> Change view to dekstop </h6>
+		</div>
+		<div id="confirm_" onmouseout="hidthis()"><img src="images/confirm.png" >
+		</div>
+		<div class="form" action="index.php" method="post">
+			<form>
+				<div><h4> Be our Member to unlock new content</h4></div>
+				<div><label for="username"> Username </label>
+				<input type="text" name="username" placeholder="Your Username here" required>
+				<label for="email"> Email </label>
+				<input type="email" name="email" placeholder="Your Email here" required>
+				<label for="psw"> Password </label>
+				<input type="password" name="psw" placeholder="Create a password" required>
+				<label for="con_psw"> Confirm Password </label>
+				<input type="password" name="con_psw" placeholder="Confirm your password" required>
+				<label>
+				<input type="checkbox" checked="checked" name="remember" style="margin-bottom:10px;"> Remember me </label>
+				<button id="submit_" type="submit">Register</button>
+				</div>
+			</form>
+		</div>
+		<div class="foot">
+			<ul>
+				<li><div><p>Instagram</p> <a href="https://www.instagram.com/heffan_official/"><img src="images/iglogo.jpg"></a></div></li>
+				<li><div><p>Official line Account</p><a><img src="images/linelogo.png" onclick="showid()"></a></div></li>
+				<li><div><p>Twitter</p><a href="https://twitter.com/KhfOfficial?s=20"><img src="images/twlogo.png"></a></div></li>
+				<li><div><p>Facebook</p><a href="https://web.facebook.com/heffan.kingdom.9"><img src="images/fblogo.png"></a></div></li>
+			</ul>
+		</div>
+		<script src="script.js">
+		</script>
+		<script>
+			var md = confirm("See in mobile device view?");
+
+			if (md == true) {
+				var l= document.getElementById("css").href="mobile.css";
+				document.getElementById("confirm_").style.visibility="visible";
+	
+			} else {
+				var d= document.getElementById("css").href="style.css";
+				document.getElementById("confirm_").style.visibility="visible";
+			}
+
+		</script>
+	</body>
+	<foot>
+	<p> Copyright <sup>©</sup> 2020 Hef Fan Kingdom
+	</foot>
+</html>

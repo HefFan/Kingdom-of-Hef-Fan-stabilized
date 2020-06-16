@@ -1,0 +1,224 @@
+body {
+	background: url("images/background.jpg");
+	background-size: cover;
+	}
+
+
+h1 {
+	font-family: Felix Titling;
+	font-size: 3em;
+	text-align:center;
+	}
+h2 {
+	font-family: Prestige Elite Std;
+	font-size: 2em;
+	}
+h3 {
+	font-family: Prestige Elite Std;
+	font-size: 28px;
+	}
+h4 {
+	font-family: Prestige Elite Std;
+	font-size: 24px;
+	}
+h5 {
+	font-family: Prestige Elite Std ;
+	font-size: 20px;
+	}
+h6 {
+	font-family: Prestige Elite Std;
+	font-size: 16px;
+	}
+p {
+	font-family: Consolas; 
+	font-size: 12px;
+	}
+a {
+	font-family: Constantia; 
+	font-size: 14px;
+	}
+.navbar {
+	height:50px;
+	background: lightGreen;
+	position:fixed;
+	top: 0;
+	width:100%;
+	}
+.navbar div {
+	display:inline-block;
+	}
+.navbar div input {
+	height:40px;
+	width:40px;
+	display: inline-block;
+	margin: 5px;
+	position:fixed;
+	top:0;
+	left:10px;
+	}
+.navbar div h3{
+	display:inline-block;
+	position:relative;
+	left:50px;
+	margin:15px;
+	color:black;
+	}
+.navbar ul{
+	position:fixed;
+	right:5px;
+	display:inline-block;
+	float:right;
+	width:max-content;
+	}
+.navbar ul li{
+	display:inline-block;
+	border-left: 1px solid black;
+	}
+.navbar ul li a{
+	color:black;
+	padding:5px;
+	text-decoration:none;
+	}
+.about {
+	width:50%;
+	text-align:center;
+	margin: 90px auto;
+	}
+.about .infodiv {
+	border-radius: 15px;
+	padding: 25px;
+	background-color: lightBlue;
+	margin-bottom:20px;
+	}
+.about .warngdiv {
+	border-radius: 15px;
+	padding: 25px;
+	background-color: Yellow;
+	margin-bottom:20px;
+	}
+.form {
+	width:40%;
+	margin: 100px  auto;
+	}
+.form form {
+	background-color: honeydew;
+    padding: 20px;
+    border-radius: 20px
+	}
+.form form div{
+	
+    display: inline-block;
+    width: 15%;
+    margin-right: 50px;
+	}
+.form form div .bloc{
+	display: inline-block;
+	}
+ .form form div label{
+	display: inline-block;
+	margin: 10px;
+	width:max-content;
+	}
+ 
+.form form div input{
+	width:450%;
+	font-family: Prestige Elite Std;
+	}
+.form form div input[type=checkbox]{
+	width:40%;
+	}
+.form form div button{
+	background:red;
+	border-radius:10px;
+	padding:5px;
+	font-family: Consolas;
+	font-size:20px;
+	margin: 10px auto;
+	}
+#menu {
+	background: white;
+	position:fixed;
+	height:585px;
+	top:50px;
+	width:20%;
+	float:left;
+	padding:7px;
+	overflow-y:scroll;
+	}
+#menu h6{
+	border-bottom: 1px solid grey;
+	border-left: 1px solid grey;
+	margin:4px;
+	cursor: pointer;
+	}
+.foot {
+	background: lightgreen;
+    margin: 30px 0 0 0;
+    height: max-content;
+		}
+.foot ul {
+	padding:50px 70px;
+	}
+.foot ul li{
+	display:inline-block;
+	margin: 0 90px;
+	}
+.foot ul li div p{
+	font-family:Prestige Elite Std;
+	font-size:14px;
+	text-align:center;
+	}
+.foot ul li div a img{
+	width:65px;
+	margin:auto;
+	border-radius:20px;
+	}
+foot{
+	background:limeGreen;
+	}
+foot p{
+	text-align:right;
+	}
+.contact-box{
+	width:80%;
+	margin: 100px auto 40px;
+	background:white;
+	border-radius:20px;
+	padding:15px;
+	}
+.contact-box .box{
+	background: white;
+	border-radius: 20px;
+	width:50%;
+	display:inline-block;
+	}
+.contact-box .box div{
+	padding:30px;
+	}
+.contact-box .priv{
+	width: 42%;
+    display: inline-block;
+    position: inherit;
+    margin: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    background: rgb(230,230,230);
+    float: right;
+    height: 570px;
+	}
+.contact-box .priv h5{
+	text-align:center;
+	margin-block-start: 0;
+    margin-block-end: 0;
+	}
+#confirm_{
+	position:fixed;
+	top:50px;
+	}
+#confirm_ img{
+	width:120px;
+	}
+
+
+
+
